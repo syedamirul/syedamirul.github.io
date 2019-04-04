@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+<head>
+<title>PETTO-Booking </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="gromming.css">
+
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- 1. Link to jQuery (1.8 or later), -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+<!-- fotorama.css & fotorama.js. -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+ <link href="dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+        <script src="dist/js/datepicker.min.js"></script>
+
+     
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+</head>
+
+<body>
+	<script>
+			$(document).ready(function(){
+				$('.dropdown-submenu a.test').on("click", function(e){
+					$(this).next('ul').toggle("slow");
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+	</script>
+
+	<div class="alignment">
+		<nav>
+			<img src="logo.png" class="img-responsive" alt="PETTO Logo">
+			<ul>
+				<div class="navigation">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="location.html">Location</a></li>
+					<div class="dropdown">
+						<li>
+							<a href="#">Services</a>
+							<ul class="dropdown-content" data-trigger="hover">
+								<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+								<li><a href="#">Pet Boarding</a></li>
+								<li><a href="swimming.html">Swimming Pool</a></li>
+								<li><a href="indoorpark.html">Indoor Park</a></li>
+							</ul>
+						</li>
+					</div>
+				</div>
+				<li>
+					<div class="icon">
+						<div class="dropdown">
+							<button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span></button>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="location.html">Location</a></li>
+								<li class="dropdown-submenu">
+									<a class="test" href="#">Services<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+										<li><a href="#">Pet Boarding</a></li>
+										<li><a href="swimming.html">Swimming Pool</a></li>
+										<li><a href="indoorpark.html">Indoor Park</a></li>
+									</ul>							
+								</li>						
+							</ul>
+						</div>
+					</div>
+				</li>			
+			</ul>				
+		</nav>
+
+<br>
+
+
+<div class="headerBooking">
+	<h1 style="	color: rgba(143, 211, 232, 1);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:50px;">Schedule Appointment</h1>
+		
+	<h2 style="	color: rgba(143, 211, 232, 1);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:30px;">Time Zone: Kuala Lumpur (GMT +08:00)</h2>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js?ver=1"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.0/moment-with-locales.js"></script>
+<script src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/5a991bff/src/js/bootstrap-datetimepicker.js"></script>
+<link href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/master/build/css/bootstrap-datetimepicker.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+<br><br>
+
+
+<div class="container-fluid"  >
+<div class="row no-gutters" >
+ <div class=" col-12 col-sm-6 col-md-6"   >
+
+<div style="overflow:hidden;margin-left:25%" >
+    <div class="form-group"  >
+        <div class="row">
+            <div class="col-md-8" >
+                <div id="datetimepicker12" ></div>
+            </div>
+        </div>
+    </div>
+	
+    <script type="text/javascript" >
+        $(function () {
+            $('#datetimepicker12').datetimepicker({
+                inline: true,
+                sideBySide: true
+            });
+        });
+    </script>
+</div>
+
+</div>
+
+<br><br>
+ <div class=" col-xl">
+<img src ="groomingPool/doctor.jpg" alt ="dog" class="imagedoctor" style="margin-left:10%" >
+</div>
+</div>
+<br><br>
+<button style="margin-left:40%"  onclick="alert('Appointment Submitted!')" class="button button2">Next >></button>
+ 
+</div>
+
+
+
+
+<br><br><br>
+<footer>
+	<div class="contact">
+		<h4>CONTACT US<br></h4>	
+		<div class="footer-social-icons">
+			<ul class="social-icons">
+				<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+				<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+				<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+				<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+				<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+			</ul>
+		</div>			
+	</div>
+	<div class="newsletter">
+		<h4>NEWSLETTER</h4>
+		<p>Sign up NOW as we will be sending you our latest UPDATES and PROMOTIONS</p>
+		<a href="signUp.html" class="signUp"><i class="right"></i><i class="right"></i>Sign Up</a>
+	</div>		
+</footer>
+
+</div>
+</body>
+</html>
+

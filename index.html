@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PETTO</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="homeSignUp.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+</head>
+
+<body>
+	<script>
+			$(document).ready(function(){
+				$('.dropdown-submenu a.test').on("click", function(e){
+					$(this).next('ul').toggle("slow");
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+	</script>
+
+	<nav>
+		<img src="logo.png" class="img-responsive" alt="PETTO Logo">
+		<ul>
+			<div class="navigation">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="location.html">Location</a></li>
+				<div class="dropdown">
+					<li>
+						<a href="#">Services</a>
+						<ul class="dropdown-content" data-trigger="hover">
+							<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+							<li><a href="daycare.html">Pet Care</a></li>
+							<li><a href="swimming.html">Swimming Pool</a></li>
+							<li><a href="indoorpark.html">Indoor Park</a></li>
+						</ul>
+					</li>
+				</div>	
+			</div>			
+			<li>
+				<div class="icon">
+					<div class="dropdown">
+						<button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-menu-hamburger"></span></button>
+						<ul class="dropdown-menu dropdown-menu-right">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="location.html">Location</a></li>
+							<li class="dropdown-submenu">
+								<a class="test" href="#">Services<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+									<li><a href="daycare.html">Pet Care</a></li>
+									<li><a href="swimming.html">Swimming Pool</a></li>
+									<li><a href="indoorpark.html">Indoor Park</a></li>
+								</ul>							
+							</li>						
+						</ul>
+					</div>
+				</div>
+			</li>			
+		</ul>				
+	</nav>
+	
+	<main>
+		<div class="fotorama" data-autoplay="true" data-loop="true" data-transition="dissolve">
+			<img src="homeSignUp/home.jpg" class="img-responsive" alt="homeImage">
+			<img src="homeSignUp/home2.jpg" class="img-responsive" alt="homeImage2">
+			<img src="homeSignUp/home3.jpg" class="img-responsive" alt="homeImage3">
+		</div>	
+		<div class="container">				
+			<h2 id="statusSection">Three key benefits of PETTO's Services</h2>						
+			<div class="row">
+				<div class="col-sm-4">	
+					<div class="status">					
+						<img src="homeSignUp/status.jpg" class="rounded-circle" alt="status1" >
+						<h3>Well Organized</h3>									
+						<div class="text-justify">
+							<p>A proper planning is important. For instance, pet's meals, exercise and grooming rountines.
+								PETTO has an organized calender for pets care by setting meal routines and exercises for pets 
+								to minimize the chances of pet illness and obesity as well.
+							</p>
+						</div>
+					</div>
+				</div>									
+				<div class="col-sm-4">
+					<div class="status2">
+						<img src="homeSignUp/status2.jpg" class="rounded-circle" alt="status2">
+						<h3>Caring</h3>
+						<div class="text-justify">
+							<p>A good pet services should have genuine concern to any pets. Well,PETTO treats pets like small children. We treat
+									pets with patience and care as well as paying attention to every small details. Other than that, PETTo provides 
+									different foods and equipment for pet's care depending on the dog's condition like skin type.
+							</p>
+						</div>
+					</div>
+				</div>	
+				<div class="col-sm-4">
+					<div class="status2">
+						<img src="homeSignUp/status3.jpg" class="rounded-circle" alt="status3">
+						<h3>Empathetic</h3>
+						<div class="text-justify">
+							<p>PETTO pay full attention to your pet's behavior, health and physical condition. PETTO thinks 
+								that human and dogs share a strong emotional bond.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>			
+
+			<div class="row">
+				<span id="homeBtmSection"><img src="homeSignUp/homeBtmSection.jpg" class="img-responsive" alt="a row of dogs"></span>
+			</div>				
+		</div>			
+	</main>		
+
+
+	<footer>
+		<div class="col-sm-6">
+			<div class="contact">
+				<h4>CONTACT US<br></h4>	
+				<div class="footer-social-icons">
+					<ul class="social-icons">
+						<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>			
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="newsletter">
+				<h4>NEWSLETTER</h4>
+				<p>Sign up NOW as we will be sending you our latest UPDATES and PROMOTIONS</p>
+				<a href="signUp.html" class="signUp"><i class="right"></i><i class="right"></i>Sign Up</a>				
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>

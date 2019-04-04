@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PETTO-Sign Up</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="homeSignUp.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+</head>
+
+<body>
+	<script>
+			$(document).ready(function(){
+				$('.dropdown-submenu a.test').on("click", function(e){
+					$(this).next('ul').toggle("slow");
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+	</script>
+
+	<div class="alignment">
+		<nav>
+			<img src="logo.png" class="img-responsive" alt="PETTO Logo">
+			<ul>
+				<div class="navigation">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="location.html">Location</a></li>					
+					<div class="dropdown">
+						<li>
+							<a href="#">Services</a>
+							<ul class="dropdown-content" data-trigger="hover">
+								<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+								<li><a href="daycare.html">Pet Care</a></li>
+								<li><a href="swimming.html">Swimming Pool</a></li>
+								<li><a href="indoorpark.html">Indoor Park</a></li>
+							</ul>
+						</li>					
+					</div>
+				</div> 
+				
+				<li>
+					<div class="icon">
+						<div class="dropdown">
+							<button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span></button>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="location.html">Location</a></li>
+								<li class="dropdown-submenu">
+									<a class="test" href="#">Services<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+										<li><a href="daycare.html">Pet Care</a></li>
+										<li><a href="swimming.html">Swimming Pool</a></li>
+										<li><a href="indoorpark.html">Indoor Park</a></li>
+									</ul>							
+								</li>						
+							</ul>
+						</div>
+					</div>
+				</li>			
+			</ul>				
+		</nav>
+	
+		<main>	
+			<img class="signUpImg" src="homeSignUp/contactUs.jpg" alt="dog communicating">			
+			<div class="textBlock">
+				<h4>JOIN US NOW</h4>
+				<p>Let's provide happiness and comfort to our pets</p>
+			</div>	
+			<h1 class="signUpHeading">Get in Touch</h1>
+			<div class="col-sm-6">
+				<div id="informationLeft">
+					<p>PETTO delivers pet's services with care and joy by measuring and managing different types of pet.Find out why other customers choose PETTO as their top pick.</p>
+
+					<h3>Find out more about us:</h3>
+					<ul>
+						<li><span class="boldText">See our latest promotions</span>
+							<p>Let us help you save cost through <span class="boldColor">promotions</span> that PETTO provides</p>
+						</li>
+
+						<li><span class="boldText">Understand more about what your pet needs</span>
+							<p>Spend more for your pet to grow <span class="boldColor">healthily and happily</span></p>
+						</li>
+
+						<li><span class="boldText">Explore more choices in PETTO</span>
+							<p>There's many products or items that helps you easier to <span class="boldColor">manage your pet in every aspect.</span></p>						
+						</li>
+					</ul>
+				</div>
+				</div>
+				
+			<div class="col-sm-6">				
+				<form>			
+					<p>Please note: all fields are required.</p>	  
+					<table>
+						<tr><th>First Name</th></tr>
+						<tr><td><input type="text" name="firstName"></td></tr>
+						<tr><th>Last Name</th></tr>
+						<tr><td><input type="text" name="lastName"></td></tr>
+						<tr><th>Email Address</th></tr>
+						<tr><td><input type="email" name="email"></td></tr>
+						<tr><th>Phone Number</th></tr>
+						<tr><th><input type="text" name="Phone"></th></tr>
+						<tr><th>Country</th></tr>
+						<tr>
+							<td>
+								<select class="customSelect" name="country">
+									<option value="Australia">Australia</option>
+									<option value="Belgium">Belgium</option>
+									<option value="Canada">Canada</option>
+									<option value="China">China</option>
+									<option value="Denmark">Denmark</option>
+									<option value="France">France</option>								
+									<option value="Germany">Germany</option>
+									<option value="Italy">Italy</option>	
+									<option value="Malaysia">Malaysia</option>								
+									<option value="Mexico">Mexico</option>
+									<option value="Thailand">Thailand</option>
+									<option value="Turkey">Turkey</option>							
+									<option value="United Kingdom">United Kingdom</option>					
+									<option value="United States">United States</option>
+									<option value="Spain">Spain</option>
+								</select>
+							</td>
+						</tr>
+						<tr><td><input type="submit" value="     Submit" id="btnSubmit"></td></tr>
+					</table>
+				</form>
+			</div>			
+		</main>		
+	</div>
+	
+
+	<footer>
+		<div class="contact">
+			<h4>CONTACT US<br></h4>	
+			<div class="footer-social-icons">
+				<ul class="social-icons">
+					<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="newsletter">
+			<h4>NEWSLETTER</h4>
+			<p>Sign up NOW as we will be sending you our latest UPDATES and PROMOTIONS</p>
+			<a href="signUp.html" class="signUp"><i class="right"></i><i class="right"></i>Sign Up</a>
+		</div>		
+	</footer>
+</body>
+</html>

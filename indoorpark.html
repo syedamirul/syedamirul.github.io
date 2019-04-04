@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PETTO-Indoor Park</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="indoorPark.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato)" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+
+</head>
+
+<body>
+	<script>
+			$(document).ready(function(){
+				$('.dropdown-submenu a.test').on("click", function(e){
+					$(this).next('ul').toggle("slow");
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+	</script>
+	<div class="alignment">
+		<nav>
+			<img src="logo.png" class="img-responsive" alt="PETTO Logo">
+			<ul>
+				<div class="navigation">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="location.html">Location</a></li>
+					<div class="dropdown">
+						<li>
+							<a href="#">Services</a>
+							<ul class="dropdown-content" data-trigger="hover">
+								<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+								<li><a href="daycare.html">Pet Care</a></li>
+								<li><a href="swimming.html">Swimming Pool</a></li>
+								<li><a href="indoorpark.html">Indoor Park</a></li>
+							</ul>
+						</li>
+					</div>
+				</div>
+				<li>
+					<div class="icon">
+						<div class="dropdown">
+							<button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span></button>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="location.html">Location</a></li>
+								<li class="dropdown-submenu">
+									<a class="test" href="#">Services<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+										<li><a href="daycare.html">Pet Care</a></li>
+										<li><a href="swimming.html">Swimming Pool</a></li>
+										<li><a href="indoorpark.html">Indoor Park</a></li>
+									</ul>							
+								</li>						
+							</ul>
+						</div>
+					</div>
+				</li>			
+			</ul>				
+		</nav>
+
+		</div>
+			
+			<div class ="section-top">
+			 <div class="content">
+			  <h1>Indoor Park</h1>
+			  
+	  </div>
+	</div>
+				<div class= "textindoorpark">1200sqft indoor area with walking trails and training landscape. 
+				It's free access to all PETTO members all year round. Customers are allowed in the park daily from 10am till 6pm.</div>
+
+											
+	
+	<footer>
+		<div class="col-sm-6">
+			<div class="contact">
+				<h4>CONTACT US<br></h4>	
+				<div class="footer-social-icons">
+					<ul class="social-icons">
+						<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>			
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="newsletter">
+				<h4>NEWSLETTER</h4>
+				<p>Sign up NOW as we will be sending you our latest UPDATES and PROMOTIONS</p>
+				<a href="signUp.html" class="signUp"><i class="right"></i><i class="right"></i>Sign Up</a>				
+			</div>
+		</div>	
+	</footer>
+	
+
+</body>
+</html>
+			
+		

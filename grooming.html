@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+<head>
+<title>PETTO-Grooming Service </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,intial-scale =1.0">
+<link rel="stylesheet" href="gromming.css">
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<!-- 1. Link to jQuery (1.8 or later), -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+<!-- fotorama.css & fotorama.js. -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+<script src="http://yui.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+
+
+</head>
+
+<body>
+	<script>
+			$(document).ready(function(){
+				$('.dropdown-submenu a.test').on("click", function(e){
+					$(this).next('ul').toggle("slow");
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+	</script>
+	<div class="alignment">
+		<nav>
+			<img src="logo.png" class="img-responsive" alt="PETTO Logo">
+			<ul>
+				<div class="navigation">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="location.html">Location</a></li>
+					<div class="dropdown">
+						<li>
+							<a href="#">Services</a>
+							<ul class="dropdown-content" data-trigger="hover">
+								<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+								<li><a href="daycare.html">Pet Care</a></li>
+								<li><a href="swimming.html">Swimming Pool</a></li>
+								<li><a href="indoorpark.html">Indoor Park</a></li>
+							</ul>
+						</li>
+					</div>
+				</div>
+				<li>
+					<div class="icon">
+						<div class="dropdown">
+							<button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span></button>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="location.html">Location</a></li>
+								<li class="dropdown-submenu">
+									<a class="test" href="#">Services<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+										<li><a href="daycare.html">Pet Care</a></li>
+										<li><a href="swimming.html">Swimming Pool</a></li>
+										<li><a href="indoorpark.html">Indoor Park</a></li>
+									</ul>							
+								</li>						
+							</ul>
+						</div>
+					</div>
+				</li>			
+			</ul>				
+		</nav>
+
+<br>
+
+
+
+
+<div class="scrollingimagegrooming" ></div>
+<br>
+<h1 style="text-align:center"> Gromming & SPA</h1>
+
+
+
+<br>
+  
+  
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    
+	
+	<div class="fotorama" 
+   data-loop="true">
+  <img src="groomingPool/groom1.jpg" alt="dog pic 1">
+  <img src="groomingPool/grooming1.jpg" alt="dog pic 2">
+  <img src="groomingPool/groom2.jpg" alt="dog pic 3">
+  
+</div>
+    </div>
+    <div class="col">
+     
+<p class="paragraph1" >Pampering is about showing affection for your pet.Our selection of spa products are made from natural ingredients to improve your pet’s body, beauty and wellness.
+Schedule your pet for some well-deserved spa to upkeep and improve your pet's skin, fur and body healthy.Our grooming services are available 6 days a week, between 10am and 5pm, Tuesday - Sunday. All grooming services can be booked in advance.  We also have a special rate on our Pet Taxi for our grooming customers! Please call us now on +6012 345 6789
+</p>
+
+    </div>
+  </div>
+</div>
+<br><br><br>
+<h2 style="text-align:center"> Dog Grooming</h2>
+<br><br>
+
+		
+
+ 
+<div class="container-fluid">		
+		<div class="row no-gutters">	
+            <div class=" col-12 col-sm-6 col-md-6">
+			<h3 style="margin-left:20%">Basic Grooming</h3>
+			<div class="textbox">
+				<img src="groomingPool/doggroom.jpg" alt="1" style="width:100%; height:100%;" class="img-responsive">
+			<div class="top-right"><div class="text" style="margin-left:25%">	<details>
+  <summary>Size</summary>
+  <p>S- RM55 </p>
+  <p>M-RM75</p>
+  <p>L- RM95 </p>
+ 
+</details>
+<details>
+  <summary>Add On</summary>
+  
+  <p> Oil Massage </p>
+  <p>Sea Salt</p>
+</details></div></div>
+			</div>
+			</div>
+            <div class=" col-12 col-sm-6 col-md-6">
+			<h3 style="margin-left:20%">Full Grooming</h3>
+			<div class="textbox">
+				<img src="groomingPool/dogroom2.jpg." alt="1" style="width:100%; height:100%;" class="img-responsive"/>
+			<div class="top-right">	
+    <div class="text" style="margin-left:25%">	<details>
+
+  <summary>Size</summary>
+  <p>S- RM115 </p>
+  <p>M-RM150</p>
+  <p>L- RM175 </p>
+ 
+</details>
+<details>
+  <summary>Add On</summary> 
+  <p> Oil Massage </p>
+  <p>Sea Salt</p>
+</details></div></div>
+			</div>
+           </div>
+        </div>
+</div>
+
+
+<br><br>	
+<h2 > Cat Grooming</h2><br><br>
+<div class="textbox">
+<img src="groomingPool/catgroom.jpg" alt="full gromming" style=" width:100%; height:30%"  >
+ <div class="top-right">  <div class="text"  >
+	<details>
+  <summary>All Size</summary>
+  <p>Basic Groom-RM95 </p>
+  <p>Full Groom-RM150</p>
+ 
+</details>
+</div>
+</div>
+</div>
+  
+
+
+
+<br><br><br>
+<button  onclick="window.location.href='booking.html'" style="margin-left:45%" class="button button2"  >Book now!! >></button>
+<br><br><br>
+<footer>
+	<div class="col-sm-6">
+		<div class="contact">
+			<h4>CONTACT US<br></h4>	
+			<div class="footer-social-icons">
+				<ul class="social-icons">
+					<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+					<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="newsletter">
+			<h4>NEWSLETTER</h4>
+			<p>Sign up NOW as we will be sending you our latest UPDATES and PROMOTIONS</p>
+			<a href="signUp.html" class="signUp"><i class="right"></i><i class="right"></i>Sign Up</a>				
+		</div>
+	</div>	
+</footer>
+	</div>
+</body>
+
+</html>
+

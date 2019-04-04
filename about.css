@@ -1,0 +1,391 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+.alignment { 
+	width: auto;
+	margin: auto;
+	height: auto; }
+
+nav ul{list-style-type: none;
+		margin-top: 2%;}
+
+nav a{text-decoration: none;
+	  color: black; 
+	  font-size: 170%;
+	  font-weight: bold;}
+
+nav a:hover{color:rgba(143, 211, 232, 1);
+			 text-decoration: none;
+			 transition: color 0.6s;} 
+
+nav li{	clear: left;
+		display: inline;
+		margin: 0 3%;}
+
+
+nav img{float: left;
+		width: 13%;
+		height: auto;
+		margin-left: 3%;
+		margin-top: 2%;}
+
+nav { position: fixed;
+	  background-color: white;
+	  margin-top: -2%;
+	  width: 110%;
+	  margin-left: -1%;	
+	  z-index: 1;
+	}
+
+.icon{display: none;}
+
+/*.signUpNav{margin-top:-3.2%;}*/
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+	margin: 0 5%;}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f2f2f2;
+	width: 250%;
+	margin-left: -100%;
+	}
+
+.dropdown-content a{
+	color: black;
+	padding: 5% 10%;
+	margin-left: -20%;
+	display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;
+								   transition: display 2s;}
+
+.dropdown-submenu{position: relative;}
+
+.dropdown-submenu .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+  } 
+
+.dropdown-menu ul{margin-right: 10%;}
+
+
+/*about*/
+
+html, body{
+	margin:0px;
+	height:100%;
+	overflow-x: hidden;
+}		 
+
+.abt-image1 {
+	background-image: url(aboutIndoorPark/cuteCat.jpg);
+	text-align: center;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bigHeader{
+	font-size: 150px;
+	padding-top: 14%;
+	padding-bottom: 10%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	transition: color 3s;
+	text-shadow: -3px -3px 12px #313a49;
+	font-weight: normal;
+}
+
+
+.aboutSection{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutSection h1{padding: 10%;
+				 font-weight: 900;
+				 font-size: 400%;
+				 color: rgba(143, 211, 232, 1);
+				 animation: aboutHeader 3s; 
+				 animation-iteration-count: initial;
+}
+
+
+@keyframes aboutHeader{
+	0% {color: black;
+	 	 font-size: 100%;}
+	100% {color:rgba(143, 211, 232, 1);
+	   font-size: 400%;}
+}
+
+.aboutSection img{width: 70%;
+				  margin-bottom: 20%;}
+
+.aboutSection p{ font-size: 110%;}
+
+
+.aboutSection footer {background-color: white;
+					  text-align: left;}
+
+					  
+
+.abt-image2	{
+	background-image: url(aboutIndoorPark/group.JPG);
+	text-align: center;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.whoAreWe{
+	font-size: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 14%;
+	padding-bottom: 10%;
+	color: #FFFFFF;
+	text-shadow: -3px -3px 12px #313a49;
+	-webkit-transform: skew(-5deg,-5deg);
+	font-weight: normal;
+}
+
+.weSection{text-align: center;
+		   font-family:Arial, Helvetica, sans-serif;}
+
+.weSection h1{
+	padding: 5%;
+	font-weight: 900;
+	font-size: 400%;
+	color: rgba(143, 211, 232, 1);
+
+}
+
+.boldColor{	color:#007aff;
+			font-weight: 600;}
+
+.weSection p{
+	font-size: 170%;
+	padding-bottom: 3%;	
+}
+
+
+
+.offer{text-align:center;}
+
+.offer img{
+	margin-top: 5%;
+	padding: 5%;
+	width: 30%;
+	height: auto;}
+
+.offer p{text-align: left;
+		padding: 5%;
+		margin-left: -10%;
+		 font-size: 200%;}
+
+.offer h1{
+	padding: 5%;
+	font-weight: 900;
+	font-size: 400%;
+	color: rgba(143, 211, 232, 1);
+
+}
+
+
+/*footer*/
+.footer-social-icons {
+    width: 170%;
+    display:block;
+    margin: 0 auto;
+    margin-left: -9%;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: -1%;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 10%;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding:1.5% 2.5%;
+    transition: .5s;
+    background-color: rgba(143, 211, 232, 1);
+}
+.fa-facebook:hover {
+	background-color: #3d5b99;
+	color: #fff;
+}
+.fa-twitter {
+    padding:1.5% 2.5%;
+    transition: .5s;
+    background-color: rgba(143, 211, 232, 1);
+}
+.fa-twitter:hover {
+	background-color: #00aced;
+	color: #fff;
+}
+
+.fa-youtube {
+    padding:1.5% 2.5%;
+    transition: .5s;
+    background-color: rgba(143, 211, 232, 1);
+}
+.fa-youtube:hover {
+	background-color: #e64a41;
+	color: #fff;
+}
+.fa-linkedin {
+    padding:1.5% 2.5%;
+    transition: .5s;
+    background-color: rgba(143, 211, 232, 1);
+}
+.fa-linkedin:hover {
+	background-color: #0073a4;
+	color: #fff;
+}
+.fa-google-plus {
+    padding:1.5% 2.5%;
+    transition: .5s;
+    background-color: rgba(143, 211, 232, 1);
+}
+.fa-google-plus:hover {
+	background-color: #e25714;
+	color: #fff;
+}
+
+footer {
+		padding-top: 2%;
+		padding-bottom: 2%;
+		padding-left: 3%;	
+		padding-right: 6%;	
+		background-color: rgba(143, 211, 232, 1);
+		width: 101%;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 130%;
+		color: white;
+		margin-left: -1%;
+		margin-right: -4%;
+		margin-bottom: -1%;
+		overflow:auto;}
+
+
+.contact{
+	float: left;
+	width: 30%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletter{
+	display: block;
+	box-sizing: border-box;	
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;}
+.contact h4{font-weight: 900;}
+.newsletter h4{font-weight:900;}
+
+
+.right {
+  border: 3px solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5%;
+  margin-right: 10%;
+  margin-left: -10%;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: static;
+}	
+
+
+
+.signUp{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	padding:2% 1%;
+	display:inline-block;
+	background-color:rgba(143, 211, 232, 1);
+	border: 2px solid #ffffff;
+	width:20%;
+	text-align:center;
+	}
+
+
+.signUp:hover{background-color: #0099e6;
+  			transition: width 2s;
+  			width: 30%;
+  			}
+
+@media only screen and (max-width: 1024px){
+	nav img{width: 25%;
+		height: auto;}
+	
+		.signUp{width: 35%;}
+
+		ul.social-icons {margin:2%;}
+	
+		.navigation{display: none;}
+	
+		.icon{margin-left: 70%;
+			display: block;}
+		 
+		.signUp:hover{ width: 35%; }
+
+	.aboutSection p{
+		font-size: 90%;
+	}
+	.offer p{text-align: left;
+		padding: 5%;
+		margin-left: 0%;
+		 font-size: 200%;}
+}
+
+@media only screen and (max-width: 768px){
+	nav img{width: 35%;
+		height: 1%;}
+
+	.signUp{
+		width: 35%;
+		padding-left: 2%;
+	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

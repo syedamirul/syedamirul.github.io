@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PETTO-Location</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="location.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+    
+
+</head>
+<body>
+	<div id="alignment">
+	<script>
+			$(document).ready(function(){
+				$('.dropdown-submenu a.test').on("click", function(e){
+					$(this).next('ul').toggle("slow");
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+	</script>
+
+		<nav>
+			<img src="logo.png" class="img-responsive" alt="PETTO Logo">
+			<ul>
+				<div class="navigation">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="location.html">Location</a></li>
+					<div class="dropdown">
+						<li>
+							<a href="#">Services</a>
+							<ul class="dropdown-content" data-trigger="hover">
+								<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+								<li><a href="daycare.html">Pet Care</a></li>
+								<li><a href="swimming.html">Swimming Pool</a></li>
+								<li><a href="indoorpark.html">Indoor Park</a></li>
+							</ul>
+						</li>
+					</div>
+				</div>
+				<li>
+					<div class="icon">
+						<div class="dropdown">
+							<button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span></button>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="location.html">Location</a></li>
+								<li class="dropdown-submenu">
+									<a class="test" href="#">Services<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="grooming.html">Pet Grooming & Spa</a></li>
+										<li><a href="daycare.html">Pet Care</a></li>
+										<li><a href="swimming.html">Swimming Pool</a></li>
+										<li><a href="indoorpark.html">Indoor Park</a></li>
+									</ul>							
+								</li>						
+							</ul>
+						</div>
+					</div>
+				</li>			
+			</ul>				
+		</nav> 
+        
+        <main>
+        <div class="backgroundimg">
+            <div class="row">
+                <div class="column">
+					<div class="map_iframe">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63741.86016604571!2d101.61966473929172!3d3.13003161651224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49aca5c7421b%3A0xb7242dad56a6c240!2sHELP+University!5e0!3m2!1sen!2smy!4v1554321060232!5m2!1sen!2smy" 
+					  allowfullscreen ></iframe> 
+					</div>   
+				</div>
+				 
+                 <div class="column">
+				   <div class="space">
+                     <div class="t1">
+                    <h1 id="locationHeader">Petto's Pets Hotel</h1>
+                    </div>
+
+                    <div class="t2">
+                    <h3>15, Jalan Semantan, Bukit Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</h3>
+                    </div>
+
+                    <div class="t3">
+                    <h3>Office: 133-9228-2332<br>
+                        Email: Petto@officialpetto.my</h3>
+                    </div>
+                    
+                    <div class="t4"> 
+                        <p> &copy;Copyright Official Petto's 2019</p>
+                    </div>
+				 </div>
+                </div>
+             </div>
+                      
+        </div>
+     </main>
+	</div>
+	
+
+	<footer>
+		<div class="col-sm-6">
+			<div class="contact">
+				<h4>CONTACT US<br></h4>	
+				<div class="footer-social-icons">
+					<ul class="social-icons">
+						<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+						<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>			
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="newsletter">
+				<h4>NEWSLETTER</h4>
+				<p>Sign up NOW as we will be sending you our latest UPDATES and PROMOTIONS</p>
+				<a href="signUp.html" class="signUp"><i class="right"></i><i class="right"></i>Sign Up</a>				
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>
